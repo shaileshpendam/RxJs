@@ -28,9 +28,11 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rxjs"
+    }
+  },
+  "defaultProject": "rxjs",
+  "cli": {
+    "analytics": "0f3c49ff-a420-4391-b772-21c879e07e60"
+  }
 }
